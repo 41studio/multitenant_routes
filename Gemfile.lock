@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    multitenant_routes (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  multitenant_routes!
+
+BUNDLED WITH
+   1.11.2
