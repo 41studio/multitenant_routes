@@ -16,6 +16,7 @@ rails g multitenant_routes:config
 Will generate new file *config/initializers/multitenant_routes_config.rb*
 ```ruby
 MultitenantRoutes.configure do |config|
+  # just host without protocol myapp.com, or + port myapp.com:3000 for development env
   config.master_host = ENV['MASTER_HOST']
   config.point_custom_domain = false # default false
   config.isolated_parameter = nil # default nil
